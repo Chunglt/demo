@@ -22,7 +22,7 @@
     <ol class="round">
         <li class="one">
             
-            <h5>Khách Hàng</h5>
+            <h5>Khách Hàng - Table</h5>
             <asp:DetailsView ID="DetailsView2" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="id_kh" DataSourceID="SqlDataSource1">
                 <Fields>
                     <asp:BoundField DataField="id_kh" HeaderText="id_kh" ReadOnly="True" SortExpression="id_kh" />
@@ -54,7 +54,7 @@
             </asp:SqlDataSource>
         </li>
         <li class="two">
-            <h5>Sản Phẩm</h5>
+            <h5>Sản Phẩm - Table</h5>
             <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="id_sp" DataSourceID="SqlDataSource2">
                 <Fields>
                     <asp:BoundField DataField="id_sp" HeaderText="id_sp" ReadOnly="True" SortExpression="id_sp" />
