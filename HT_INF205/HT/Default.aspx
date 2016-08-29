@@ -122,7 +122,7 @@
             </asp:SqlDataSource>
         </li>
         <li class="five">
-            <h5>Hóa Đơn</h5>
+            <h5>Hóa Đơn San Pham</h5>
             <asp:DetailsView ID="DetailsView5" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="id_hd" DataSourceID="SqlDataSource5">
                 <Fields>
                     <asp:BoundField DataField="id_hd" HeaderText="id_hd" ReadOnly="True" SortExpression="id_hd" />
