@@ -128,6 +128,7 @@
                     <asp:BoundField DataField="id_hd" HeaderText="id_hd" ReadOnly="True" SortExpression="id_hd" />
                     <asp:BoundField DataField="date_time" HeaderText="date_time" SortExpression="date_time" />
                     <asp:BoundField DataField="KhachHang_id_kh" HeaderText="KhachHang_id_kh" SortExpression="KhachHang_id_kh" />
+                    <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowInsertButton="True" />
                 </Fields>
             </asp:DetailsView>
             <asp:SqlDataSource ID="SqlDataSource5" runat="server" ConnectionString="<%$ ConnectionStrings:QuanLyBanHang_Group9_INF205ConnectionString18 %>" DeleteCommand="DELETE FROM [HoaDon] WHERE [id_hd] = @id_hd" InsertCommand="INSERT INTO [HoaDon] ([id_hd], [date_time], [KhachHang_id_kh]) VALUES (@id_hd, @date_time, @KhachHang_id_kh)" SelectCommand="SELECT [id_hd], [date_time], [KhachHang_id_kh] FROM [HoaDon]" UpdateCommand="UPDATE [HoaDon] SET [date_time] = @date_time, [KhachHang_id_kh] = @KhachHang_id_kh WHERE [id_hd] = @id_hd">
