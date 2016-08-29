@@ -13,7 +13,7 @@
                 Tôn chỉ hoạt động của Website chúng tôi là:</mark> Niềm vui của khách hàng là hạnh phúc với chúng tôi.
                 Rất mong các bạn ủng hộ chúng tôi<a href="Default.aspx" title="ASP.NET Forum">Hãy đến với chúng tôi.</a>.
             </p>
-            <img src="Images/logo.jpg" />
+            <img src="Images/logo.jpg" alt="logo" />
         </div>
     </section>
 </asp:Content>
