@@ -99,7 +99,7 @@
             <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:QuanLyBanHang_Group9_INF205ConnectionString16 %>" SelectCommand="SELECT [HoaDon_id_hd], [SanPham_id_sp], [so_luong], [amount] FROM [ChiTietHoaDon]"></asp:SqlDataSource>
         </li>
         <li class="four">
-            <h5>Loại Sản Phẩm</h5>
+            <h5>Loại Sản Phẩm 12</h5>
             <asp:DetailsView ID="DetailsView4" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="sku" DataSourceID="SqlDataSource4">
                 <Fields>
                     <asp:BoundField DataField="sku" HeaderText="sku" ReadOnly="True" SortExpression="sku" />
