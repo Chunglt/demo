@@ -22,7 +22,7 @@
     <ol class="round">
         <li class="one">
             
-            <h5>Khách Hàng - Table</h5>
+            <h5>Khách Hàng - Table 1</h5>
             <asp:DetailsView ID="DetailsView2" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="id_kh" DataSourceID="SqlDataSource1">
                 <Fields>
                     <asp:BoundField DataField="id_kh" HeaderText="id_kh" ReadOnly="True" SortExpression="id_kh" />
@@ -54,7 +54,7 @@
             </asp:SqlDataSource>
         </li>
         <li class="two">
-            <h5>Sản Phẩm - Table</h5>
+            <h5>Sản Phẩm - Table 2</h5>
             <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="id_sp" DataSourceID="SqlDataSource2">
                 <Fields>
                     <asp:BoundField DataField="id_sp" HeaderText="id_sp" ReadOnly="True" SortExpression="id_sp" />
@@ -86,7 +86,7 @@
             </asp:SqlDataSource>
         </li>
         <li class="three">
-            <h5>Chi Tiết Hóa Đơn</h5>
+            <h5>Chi Tiết Hóa Đơn - Table 3</h5>
             <asp:DetailsView ID="DetailsView3" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataSourceID="SqlDataSource3">
                 <Fields>
                     <asp:BoundField DataField="HoaDon_id_hd" HeaderText="HoaDon_id_hd" SortExpression="HoaDon_id_hd" />
