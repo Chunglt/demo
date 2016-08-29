@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Home Page" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
-<asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
+<asp:Content runat="server" ID="FeaturedContent"  ContentPlaceHolderID="FeaturedContent">
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
