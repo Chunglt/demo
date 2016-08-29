@@ -6,6 +6,7 @@
             <hgroup class="title">
                 <h1></h1>
                 <h2>Chào mừng các bạn đến với Website của chúng tôi.</h2>
+				<h2>Welcome to My Website.</h2>
             </hgroup>
             <p>
                 Website của chúng tôi luôn phục vụ các bạn tận tâm.</a>.
